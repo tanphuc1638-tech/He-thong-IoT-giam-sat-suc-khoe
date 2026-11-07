@@ -1,8 +1,5 @@
 # Health Dashboard - Frontend (Next.js + R3F + MQTT + Firebase)
 
-Dashboard realtime hien thi BPM/SpO2 tu ESP32, ket qua chan doan AI, quan
-tim 3D dap theo nhip tim, bieu do xu huong va lich su do luu Firestore.
-
 ## 1. Cau truc thu muc
 
 ```
