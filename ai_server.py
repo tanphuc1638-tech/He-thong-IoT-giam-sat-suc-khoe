@@ -1,11 +1,11 @@
 import json
 import paho.mqtt.client as mqtt
 
-# Cấu hình MQTT Broker (Sử dụng EMQX Public)
+
 BROKER = "localhost"
 PORT = 1883
-TOPIC_SUB = "tdtu/health/sensor"    # Lắng nghe dữ liệu thô từ ESP32
-TOPIC_PUB = "tdtu/health/ai_result" # Đẩy kết quả AI lên Web Dashboard
+TOPIC_SUB = "---------"    # Lắng nghe dữ liệu thô từ ESP32
+TOPIC_PUB = "--------------" # Đẩy kết quả lên Web Dashboard
 
 def rule_based_ai(bpm, spo2):
     """Hệ chuyên gia phân loại nhịp tim và SpO2 cơ bản"""
