@@ -59,15 +59,15 @@ void sendUi(UiType type, int progress = 0, int bpm = 0, int spo2 = 0, bool abnor
 // ================================================================
 // 3. CẤU HÌNH THÔNG SỐ
 // ================================================================
-const char* WIFI_SSID     = "TanPhuc";
-const char* WIFI_PASSWORD = "09876543210";
+const char* WIFI_SSID     = "NAME_WIFI";
+const char* WIFI_PASSWORD = "PASSWORD_WIFI";
 
-#define MQTT_BROKER  "172.20.10.3"
+#define MQTT_BROKER  "________"
 #define MQTT_PORT    1883
-#define MQTT_TOPIC   "tdtu/health/sensor"
+#define MQTT_TOPIC   "________"
 
-#define BOT_TOKEN "8751361829:AAE4PW_cHmbOsds7KrJcLg0g80viKDfZQN0" 
-#define CHAT_ID   "8926050085"
+#define BOT_TOKEN "_________" 
+#define CHAT_ID   "_________"
 
 #define I2C_SDA_PIN        21
 #define I2C_SCL_PIN        22
